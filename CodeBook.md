@@ -21,19 +21,18 @@ The script  run_analysis.R  performs the following process to clean up the data 
 11. Creates tidy dataset that requires library(plyr)
 
 ##Variables
-*testData - table contents of  test/X_test.txt  
-*trainData - table contents of  train/X_train.txt  
-*data - Measurement data. Combined data set of the two above variables
-*testSubject - table contents of  test/subject_test.txt  
-*trainSubject - table contents of  test/subject_train.txt  
-*subject - Subjects. Combined data set of the two above variables
-*labels - table contents of  test/y_test.txt   
-*combinedata - Data Labels. Combined data set of the two above variables. 
-*featuresNames - table contents of  features.txt  
-*features - Names of for data columns derived from featuresNames
-
+* testData - table contents of  test/X_test.txt  
+* trainData - table contents of  train/X_train.txt  
+* data - Measurement data. Combined data set of the two above variables
+* testSubject - table contents of  test/subject_test.txt  
+* trainSubject - table contents of  test/subject_train.txt  
+* subject - Subjects. Combined data set of the two above variables
+* labels - table contents of  test/y_test.txt   
+* combinedata - Data Labels. Combined data set of the two above variables
+* featuresNames - table contents of  features.txt  
+* features - Names of for data columns derived from featuresNames
 
 ##Output
-*tidyData.txt
-*The first column contains subject IDs.
-*The second column contains activity name
+* tidyData.txt
+* The first column contains subject IDs.
+* The second column contains activity name

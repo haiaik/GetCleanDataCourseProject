@@ -32,22 +32,22 @@ For Evaluation:
 
 * Submit a link to a Github repo with the code for performing your analysis. The code should have a file  run_analysis.R  in the main directory that can be run as long as the Samsung data is in your working directory. The output should be the tidy data set you submitted for part 1.
 
-*Code Book
-A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+Code Book
+* A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 The code book modifies and updates the codebooks available to you with the data to indicate all the variables and summaries you calculated, along with units, and any other relevant information.
 
-*README
-Include a  README.md  in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+README
+* Include a  README.md  in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
 ##Data Analysis Explanation
-*Set path to folder
-*Read Activity Files from y_test.txt and y_train.txt
-*Read Subject Files from subject_test.txt and subject_train.txt
-*Read Features Files from X_test.txt and X_train.txt
-*Read Labels from activity_labels.txt
-*Merge Data
-*Name variables
-*Merge columns
-*Subset and keep only std and mean
-*Label variables that is easy to understand
-*Creates tidy dataset that requires library(plyr)
+* Set path to folder
+* Read Activity Files from y_test.txt and y_train.txt
+* Read Subject Files from subject_test.txt and subject_train.txt
+* Read Features Files from X_test.txt and X_train.txt
+* Read Labels from activity_labels.txt
+* Merge Data
+* Name variables
+* Merge columns
+* Subset and keep only std and mean
+* Label variables that is easy to understand
+* Creates tidy dataset that requires library(plyr)
